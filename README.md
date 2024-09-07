@@ -1,4 +1,4 @@
-# Deploy RAG to Kubernertes with KServe
+# Deploy RAG to Kubernetes with KServe
 
 Step 1 ) Create a cluster, e.g. GKE, by kind create cluster 
 Step 2 ) Install Cert Manager, Istio and KubeFlow componets such as KNative following below instructions 
