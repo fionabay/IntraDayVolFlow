@@ -1,16 +1,16 @@
 # Deploy RAG to Kubernetes with KServe
 
 - Step 1 ) Create a cluster, e.g. GKE, by
-          kind create cluster --config=kind-local.yaml
+   - kind create cluster --config=kind-local.yaml
 - Step 2 )  KubeFlow componets such as KNative following below instructions 
-          https://github.com/kubeflow/manifests?tab=readme-ov-file#install-individual-components)
+   - https://github.com/kubeflow/manifests?tab=readme-ov-file#install-individual-components)
 - Step 3) Install network layer Istio
-   https://knative.dev/docs/install/installing-istio/
+   - https://knative.dev/docs/install/installing-istio/
 - Step 4) Install cert manager
-  kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.15.3/cert-manager.yaml
+   - kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.15.3/cert-manager.yaml
 - Step 5) Install KServ and KServ Runtime
-  kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.10.0/kserve.yaml
-  kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.10.0/kserve-runtimes.yaml
+   - kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.10.0/kserve.yaml
+   - kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.10.0/kserve-runtimes.yaml
 - Step 6 ) Initialize a Python project by Poetry and add dependencies in pyproject.toml 
 - Step 7 ) Subclass Kserve.Model,buildpack the custom model to a Docker image 
 - Step 8)  Deploy by kubectl apply -f deployment.yaml
