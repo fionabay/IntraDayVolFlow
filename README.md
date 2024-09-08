@@ -5,6 +5,7 @@
 - Step 2 )  KubeFlow componets such as KNative following below instructions 
           https://github.com/kubeflow/manifests?tab=readme-ov-file#install-individual-components)
 - Step 3) Install network layer Istio
+   https://knative.dev/docs/install/installing-istio/
 - Step 4) Install cert manager
   kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.15.3/cert-manager.yaml
 - Step 5) Install KServ and KServ Runtime
