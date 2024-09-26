@@ -1,4 +1,7 @@
-# Deploy RAG to Kubernetes with KServe
+# IntraDay Volume Forecast by MLFlow on EKS
+
+<img width="184" alt="image" src="https://github.com/user-attachments/assets/c9398fb6-9479-4746-901c-51f0920d0e89">
+
 
 - Step 1 ) Create a cluster, e.g. GKE, by
    - kind create cluster --config=kind-local.yaml
