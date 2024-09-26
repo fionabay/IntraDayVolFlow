@@ -3,7 +3,7 @@
 <img width="184" alt="image" src="https://github.com/user-attachments/assets/c9398fb6-9479-4746-901c-51f0920d0e89">
 
 
-- Step 1 ) Create a cluster, e.g. GKE, by
+- Step 1 ) Create a cluster, e.g. EKS, by
    - kind create cluster --config=kind-local.yaml
 - Step 2 )  KubeFlow componets such as KNative following below instructions 
    - https://github.com/kubeflow/manifests?tab=readme-ov-file#install-individual-components)
